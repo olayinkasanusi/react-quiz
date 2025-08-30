@@ -1,5 +1,5 @@
 function Options({ quest, dispatch, answer }) {
-  const { question, options, points, correctOption } = quest;
+  const { options, correctOption } = quest;
 
   const isAnswered = answer !== null;
 
